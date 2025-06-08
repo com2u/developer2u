@@ -1,0 +1,705 @@
+{
+  "developers": [
+  {
+  "profile_picture": "1.png",
+  "name": "Niranjana D.",
+  "availability": "busy",
+  "languages": [
+    "English",
+    "Hindi",
+    "Panjabi",
+    "Malayalam",
+    "Tamil",
+    "Spanish"
+  ],
+  "roles": [
+    "Machine Learning",
+    "Backend"
+  ],
+  "tech_stack": [
+    "Pandas",
+    "SQL",
+    "Google Sheets",
+    "FastAPI",
+    "Streamlit",
+    "Google Cloud",
+    "AWS"
+  ],
+  "ai_tools": [
+    "LangGraph",
+    "CrewAI",
+    "AutoGen",
+    "LangChain"
+  ],
+  "verification": {
+    "status": true,
+    "code": "Verified"
+  },
+  "total_jobs": 13,
+  "education": "Bachelor of Computer Applications, Indira Gandhi National Open University (2022–2024)",
+  "country": "India"
+},
+
+{
+  "profile_picture": "2.png",
+  "name": "Abdulkarim G.",
+  "availability": "active",
+  "languages": [
+    "English",
+    "Amharic"
+  ],
+  "roles": [
+    "Backend",
+    "FullStack",
+    "DevOps"
+  ],
+  "tech_stack": [
+    "Python",
+    "Django",
+    "Flask",
+    "FastAPI",
+    "NestJS",
+    "Node.js",
+    "Express.js",
+    "Next.js",
+    "Nuxt.js",
+    "React",
+    "Angular",
+    "MongoDB",
+    "PostgreSQL",
+    "MySQL",
+    "Supabase",
+    "Firebase",
+    "Redis",
+    "Pinecone",
+    "Docker",
+    "Jenkins",
+    "GitHub Actions",
+    "AWS",
+    "Azure",
+    "GCP",
+    "NGINX",
+    "PM2",
+    "Tailwind",
+    "MUI",
+    "TypeScript",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Flutter",
+    "Dart"
+  ],
+  "ai_tools": [
+    "ChatGPT",
+    "OpenAI",
+    "LangChain",
+    "CrewAI",
+    "LangGraph",
+    "LangSmith",
+    "AutoGen",
+    "Llama3",
+    "Mistral",
+    "Gemma",
+    "DALL-E",
+    "MidJourney",
+    "Runway ML",
+    "ElevenLabs"
+  ],
+  "verification": {
+    "status": true,
+    "code": "Verified 49"
+  },
+  "total_jobs": 20,
+  "education": "", 
+  "country": "Ethiopia"
+},
+
+
+{
+  "profile_picture": "3.png",
+  "name": "Faisal K.",
+  "availability": "active",
+  "languages": [
+    "English"
+  ],
+  "roles": [
+    "FullStack",
+    "AI Integration"
+  ],
+  "tech_stack": [
+    "Python",
+    "Golang",
+    "Node.js",
+    "React.js",
+    "REST APIs",
+    "Microservices",
+    "Docker",
+    "CI/CD",
+    "Git",
+    "AWS",
+    "GCP",
+    "AWS Lambda",
+    "SageMaker",
+    "RunPod",
+    "SkyPilot"
+  ],
+  "ai_tools": [
+    "OpenAI",
+    "GPT-4o",
+    "LLaMA 3",
+    "Mistral",
+    "AWS Bedrock",
+    "PEFT",
+    "LoRA",
+    "QLoRA",
+    "RLHF",
+    "DPO",
+    "Axolotl",
+    "Hugging Face AutoTrain",
+    "Unsloth",
+    "vLLM",
+    "TGI",
+    "AWQ",
+    "GGUF",
+    "GGML",
+    "GPTQ",
+    "Pinecone",
+    "FAISS",
+    "ChromaDB",
+    "Qdrant",
+    "LangChain",
+    "LangServe",
+    "LangSmith",
+    "Flowise AI",
+    "StackAI",
+    "LangFlow",
+    "CrewAI",
+    "AutoGen",
+    "LangGraph",
+    "Deepgram",
+    "Amazon Polly"
+  ],
+  "verification": {
+    "status": true,
+    "code": "Verified"
+  },
+  "total_jobs": 12,
+  "education": "",
+  "country": "India"
+},
+
+{
+  "profile_picture": "4.png",
+  "name": "Taha H.",
+  "availability": "active",
+  "languages": [
+    "English"
+  ],
+  "roles": [
+    "FullStack",
+    "Machine Learning"
+  ],
+  "tech_stack": [
+    "React",
+    "Next.js",
+    "JavaScript",
+    "Node.js",
+    "Nest.js",
+    "Express.js",
+    "MongoDB",
+    "PostgreSQL",
+    "MySQL",
+    "AWS",
+    "Google Cloud",
+    "DevOps",
+    "MLOps",
+    "API Integration"
+  ],
+  "ai_tools": [
+    "ChatGPT",
+    "OpenAI",
+    "LLM",
+    "VAPI",
+    "RAG",
+    "n8n",
+    "make.com",
+    "Flowise",
+    "Loveable"
+  ],
+  "verification": {
+    "status": true,
+    "code": "Verified"
+  },
+  "total_jobs": 16,
+  "education": "",
+  "country": "United States"
+},
+
+
+{
+  "profile_picture": "5.png",
+  "name": "Saba K.",
+  "availability": "busy",
+  "languages": [
+    "English"
+  ],
+  "roles": [
+    "FullStack",
+    "Machine Learning"
+  ],
+  "tech_stack": [
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "React",
+    "SQL",
+    "PostgreSQL",
+    "MySQL",
+    "SQLite",
+    "TensorFlow",
+    "PyTorch",
+    "Gradio",
+    "Paperspace",
+    "Plotly"
+  ],
+  "ai_tools": [
+    "Mistral",
+    "CrewAI",
+    "Llama2",
+    "Llama3",
+    "Huggingface"
+  ],
+  "verification": {
+    "status": true,
+    "code": "Verified"
+  },
+  "total_jobs": 1,
+  "education": "",
+  "country": "Georgia"
+},
+
+{
+  "profile_picture": "6.png",
+  "name": "Bitan M.",
+  "availability": "active",
+  "languages": [
+    "English",
+    "Bengali",
+    "Hindi",
+    "French"
+  ],
+  "roles": [
+    "Designer"
+  ],
+  "tech_stack": [
+    "Procreate",
+    "Photoshop",
+    "Illustrator",
+    "Canva"
+  ],
+  "ai_tools": [
+    "Midjourney",
+    "Sora"
+  ],
+  "verification": {
+    "status": true,
+    "code": "Verified"
+  },
+  "total_jobs": 6,
+  "education": "",
+  "country": "India"
+},
+
+{
+  "profile_picture": "7.png",
+  "name": "Jon K.",
+  "availability": "active",
+  "languages": [
+    "English",
+    "American Sign Language",
+    "Spanish"
+  ],
+  "roles": [
+    "Designer"
+  ],
+  "tech_stack": [],
+  "ai_tools": [],
+  "verification": {
+    "status": true,
+    "code": "Verified"
+  },
+  "total_jobs": 26,
+  "education": "",
+  "country": "United States"
+},
+
+{
+  "profile_picture": "8.png",
+  "name": "Vlad D.",
+  "availability": "active",
+  "languages": [
+    "English",
+    "Russian",
+    "Ukrainian"
+  ],
+  "roles": [
+    "Designer"
+  ],
+  "tech_stack": [
+    "Adobe After Effects"
+  ],
+  "ai_tools": [],
+  "verification": {
+    "status": true,
+    "code": "Verified"
+  },
+  "total_jobs": 5,
+  "education": "FreelStep School (Motion Design)",
+  "country": "Ukraine"
+},
+
+{
+  "profile_picture": "9.png",
+  "name": "Shehryar G.",
+  "availability": "active",
+  "languages": [
+    "English",
+    "Hindi",
+    "Panjabi",
+    "Urdu",
+    "French",
+    "German",
+    "Japanese"
+  ],
+  "roles": [
+    "Machine Learning",
+    "Data Analytics",
+    "FullStack"
+  ],
+  "tech_stack": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Scikit-learn",
+    "XGBoost",
+    "LightGBM",
+    "Optuna",
+    "Hyperopt",
+    "OpenCV",
+    "Tesseract",
+    "Detectron2",
+    "MediaPipe",
+    "Dash",
+    "Plotly",
+    "Power BI",
+    "Tableau",
+    "Shiny",
+    "Airflow",
+    "Prefect",
+    "dbt",
+    "Spark",
+    "Hadoop",
+    "SQL",
+    "NoSQL",
+    "BigQuery",
+    "Snowflake",
+    "MongoDB",
+    "Delta Lake",
+    "FastAPI",
+    "Flask",
+    "Django",
+    "Express",
+    "React",
+    "Next.js",
+    "Svelte",
+    "AWS",
+    "Azure",
+    "Firebase",
+    "Docker",
+    "Kubernetes",
+    "GitHub Actions",
+    "Make (Integromat)",
+    "Zapier",
+    "n8n",
+    "Pipedream",
+    "Workato",
+    "Bardeen",
+    "Selenium",
+    "Scrapy",
+    "Playwright",
+    "BeautifulSoup"
+  ],
+  "ai_tools": [
+    "LangChain",
+    "LlamaIndex",
+    "HuggingFace",
+    "OpenAI GPT-4",
+    "Claude",
+    "Mistral",
+    "Gemini",
+    "Falcon",
+    "Jasper AI",
+    "DALL·E",
+    "Stable Diffusion",
+    "BabyAGI",
+    "AutoGPT",
+    "LangSmith",
+    "OpenInterpreter",
+    "GPT",
+    "BERT",
+    "T5",
+    "RoBERTa",
+    "Pegasus",
+    "Whisper",
+    "ElevenLabs",
+    "SpeechBrain",
+    "DeepSpeech",
+    "FFmpeg"
+  ],
+  "verification": {
+    "status": true,
+    "code": "Verified"
+  },
+  "total_jobs": 47,
+  "education": "",
+  "country": "Pakistan"
+},
+
+{
+  "profile_picture": "10.png",
+  "name": "Zayd B.",
+  "availability": "busy",
+  "languages": [
+    "English",
+    "Arabic",
+    "French",
+    "Spanish"
+  ],
+  "roles": [
+    "FullStack"
+  ],
+  "tech_stack": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Node.js",
+    "TypeScript",
+    "MongoDB",
+    "Mongoose",
+    "Express",
+    "Fastify",
+    "React.js",
+    "Gatsby.js",
+    "Next.js",
+    "Vue.js",
+    "Nuxt.js",
+    "Angular.js",
+    "Socket.io",
+    "Redis",
+    "Electron.js",
+    "Chart.js",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Ant Design",
+    "Discord.js",
+    "PM2",
+    "NPM",
+    "Git",
+    "GitHub",
+    "Cloudflare",
+    "Linux"
+  ],
+  "ai_tools": [],
+  "verification": {
+    "status": true,
+    "code": "Verified"
+  },
+  "total_jobs": 38,
+  "education": "",
+  "country": "Morocco"
+},
+
+
+{
+  "profile_picture": "11.png",
+  "name": "Ahmed F.",
+  "availability": "busy",
+  "languages": [
+    "English",
+    "Arabic"
+  ],
+  "roles": [
+    "Automation Testing",
+    "FullStack",
+    "Machine Learning"
+  ],
+  "tech_stack": [
+    "Python",
+    "C++",
+    "MATLAB",
+    "Cypress",
+    "React",
+    "Tkinter"
+  ],
+  "ai_tools": [],
+  "verification": {
+    "status": true,
+    "code": "Verified"
+  },
+  "total_jobs": 7,
+  "education": "Undergraduate Computer Science student",
+  "country": "United States"
+},
+
+
+{
+  "profile_picture": "12.png",
+  "name": "Son Tung D.",
+  "availability": "busy",
+  "languages": [
+    "English"
+  ],
+  "roles": [
+    "FullStack"
+  ],
+  "tech_stack": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Node.js",
+    "Vue.js",
+    "React.js",
+    "Python",
+    "Django",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Amazon Web Services"
+  ],
+  "ai_tools": [],
+  "verification": {
+    "status": true,
+    "code": "Verified"
+  },
+  "total_jobs": 20,
+  "education": "",
+  "country": "Vietnam"
+},
+
+{
+  "profile_picture": "13.png",
+  "name": "Ashish K.",
+  "availability": "busy",
+  "languages": [
+    "English",
+    "Gujarati",
+    "Hindi"
+  ],
+  "roles": [
+    "FullStack",
+    "Automation Testing",
+    "DevOps"
+  ],
+  "tech_stack": [
+    "Vue.js",
+    "React.js",
+    "Angular.js",
+    "Nuxt.js",
+    "Next.js",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Node.js",
+    "Nest.js",
+    "Java",
+    "Python",
+    "Express.js",
+    "jQuery",
+    "MongoDB",
+    "PostgreSQL",
+    "MySQL",
+    "Microsoft SQL Server",
+    "Cloudinary",
+    "Firebase",
+    "Dialogflow",
+    "Passport.js",
+    "JWT",
+    "Sockets",
+    "Zapier",
+    "Facebook API",
+    "Instagram API",
+    "Twitter API",
+    "Webpack",
+    "npm",
+    "Grunt",
+    "EsLint",
+    "SonarJS",
+    "Git",
+    "Microsoft VSTS",
+    "GitHub",
+    "GitLab",
+    "Trello",
+    "JIRA",
+    "BitBucket",
+    "Docker",
+    "Jenkins",
+    "Ansible",
+    "AWS",
+    "Microsoft Azure",
+    "APIDOC",
+    "Postman"
+  ],
+  "ai_tools": [],
+  "verification": {
+    "status": true,
+    "code": "Verified"
+  },
+  "total_jobs": 5,
+  "education": "",
+  "country": "India"
+},
+
+{
+  "profile_picture": null,
+  "name": "Asjad A.",
+  "availability": "busy",
+  "languages": [
+    "English"
+  ],
+  "roles": [
+    "Machine Learning",
+    "Technical Writing"
+  ],
+  "tech_stack": [
+    "Python",
+    "R",
+    "SQL",
+    "Scikit-learn",
+    "TensorFlow",
+    "PyTorch",
+    "Excel",
+    "Power BI",
+    "Tableau",
+    "Streamlit",
+    "Gradio",
+    "AWS",
+    "Heroku",
+    "Vercel"
+  ],
+  "ai_tools": [
+    "LangChain",
+    "LlamaIndex",
+    "AutoGen",
+    "CrewAI"
+  ],
+  "verification": {
+    "status": true,
+    "code": "Verified"
+  },
+  "total_jobs": 5,
+  "education": "",
+  "country": "Pakistan"
+}
+ ]
+}
