@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  developer2u:
+    build: .
+    ports:
+      - "7702:7702"
