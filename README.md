@@ -120,7 +120,7 @@ sudo docker logs -f developer2u-website
 - **Port**: 7702 (configurable)
 - **Web Server**: Nginx Alpine
 - **Build Process**: Multi-stage build for optimized image size
-- **Features**: Gzip compression, security headers, static asset caching
+- **Features**: Gzip compression, security headers, static asset caching, SEO files (robots.txt, sitemap.xml)
 
 ## 🛠️ Development Setup
 
@@ -164,6 +164,45 @@ The application is configured to work with multiple domains:
 - `127.0.0.1` (local testing)
 - `developer2u.de` (production domain)
 - `developer2u.com2u.selfhost.eu` (staging/alternative domain)
+
+## 🔍 SEO & Search Engine Optimization
+
+The website includes comprehensive SEO optimization for maximum search engine visibility:
+
+### SEO Files
+- **robots.txt**: Located at `/robots.txt` - Allows all search engines to crawl the site
+- **sitemap.xml**: Located at `/sitemap.xml` - Contains all website pages with priorities and update frequencies
+- **schema.json**: Located at `/schema.json` - Standalone Schema.org structured data file
+
+### Meta Tags & Social Media
+- **Meta Description**: Optimized description for search results
+- **Keywords**: Targeted keywords for AI developers, software development, etc.
+- **Open Graph**: Facebook and LinkedIn sharing optimization
+- **Twitter Cards**: Enhanced Twitter sharing with large image cards
+- **Canonical URL**: Prevents duplicate content issues
+
+### Schema.org Structured Data (JSON-LD)
+Comprehensive structured data markup including:
+- **Organization**: Company information, founder, address, contact details
+- **WebSite**: Site information with search functionality
+- **Service**: AI-enhanced software development services catalog
+- **WebPage**: Page-specific information and breadcrumb navigation
+- **Breadcrumbs**: Navigation structure for search engines
+
+### Sitemap Structure
+- Homepage (`/`) - Priority 1.0, Updated weekly
+- Developer Pool (`/developers`) - Priority 0.9, Updated daily
+- Project Request (`/request`) - Priority 0.9, Updated monthly
+- How It Works (`/process`) - Priority 0.8, Updated monthly
+- About Us (`/about`) - Priority 0.7, Updated monthly
+
+### Search Engine Guidelines
+- All pages are crawlable by search engines
+- Sitemap is referenced in robots.txt
+- Clean URL structure for better SEO
+- Responsive design for mobile-first indexing
+- Rich snippets enabled through Schema.org markup
+- Social media sharing optimization
 
 ## 📊 Developer Data
 

@@ -1,0 +1,221 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://developer2u.de/#organization",
+      "name": "Developer2U",
+      "alternateName": "developer2u.de",
+      "url": "https://developer2u.de",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://developer2u.de/data/Logo.png",
+        "width": 200,
+        "height": 60
+      },
+      "description": "AI-powered developer platform connecting companies with experienced software developers who leverage cutting-edge AI tools and autonomous agents.",
+      "foundingDate": "2025",
+      "founder": {
+        "@type": "Person",
+        "name": "Patrick Hess",
+        "jobTitle": "CEO"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Frohschammerstr. 6",
+        "addressLocality": "Munich",
+        "postalCode": "80807",
+        "addressCountry": "DE"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+49",
+        "email": "info@developer2u.de",
+        "contactType": "customer service",
+        "availableLanguage": ["German", "English"]
+      },
+      "sameAs": [
+        "https://developer2u.de"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://developer2u.de/#website",
+      "url": "https://developer2u.de",
+      "name": "Developer2U - AI-Powered Developer Platform",
+      "description": "Connect with experienced software developers who use AI tools and autonomous agents. Project-based work, no long-term commitments.",
+      "publisher": {
+        "@id": "https://developer2u.de/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://developer2u.de/developers?search={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://developer2u.de/#service",
+      "name": "AI-Enhanced Software Development Services",
+      "description": "Professional software development services with AI tools integration, project-based engagements, and vetted developers.",
+      "provider": {
+        "@id": "https://developer2u.de/#organization"
+      },
+      "serviceType": "Software Development",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Germany"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Developer Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Frontend Development",
+              "description": "React, Vue.js, and modern frontend development with AI assistance"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Backend Development",
+              "description": "Node.js, Python, and scalable backend solutions"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "DevOps Services",
+              "description": "Docker, Kubernetes, CI/CD, and cloud infrastructure"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Integration",
+              "description": "AI tools integration and autonomous agent implementation"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://developer2u.de/#webpage",
+      "url": "https://developer2u.de",
+      "name": "Developer2U - AI-Powered Developer Platform",
+      "isPartOf": {
+        "@id": "https://developer2u.de/#website"
+      },
+      "about": {
+        "@id": "https://developer2u.de/#organization"
+      },
+      "description": "Connect companies with experienced software developers who leverage cutting-edge AI tools and autonomous agents for enhanced productivity and quality.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://developer2u.de/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Developer Pool",
+            "item": "https://developer2u.de/developers"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How It Works",
+            "item": "https://developer2u.de/process"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Project Request",
+            "item": "https://developer2u.de/request"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "About Us",
+            "item": "https://developer2u.de/about"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://developer2u.de/process#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How quickly can I get started with a developer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "From idea to success in 3 days. You describe your needs and we deliver the right developer. No recruiting delays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What AI tools do developers use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our developers use cutting-edge AI tools including VSCode+Cline, GitHub Copilot, CrewAI, LangChain, and other autonomous agents to enhance productivity and code quality."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there any commission fees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No commission fees - direct booking with transparent pricing. You work directly with the developer without additional costs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What technologies do developers specialize in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Modern stacks including React, Vue, Node.js, Vite.js, Tailwind.css, Python, Docker, Kubernetes, GitHub Actions, GitLab CI/CD, AWS, Azure, Google Cloud, and more."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://developer2u.de/developers#developerlist",
+      "name": "Available Developers",
+      "description": "List of verified software developers with AI expertise",
+      "numberOfItems": 13,
+      "itemListElement": [
+        {
+          "@type": "Person",
+          "name": "Verified Developer",
+          "jobTitle": "Software Developer",
+          "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Verified Developer Status"
+          },
+          "knowsAbout": ["React", "Node.js", "AI Tools", "Docker"],
+          "workLocation": {
+            "@type": "Country",
+            "name": "Germany"
+          }
+        }
+      ]
+    }
+  ]
+}

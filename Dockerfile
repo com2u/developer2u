@@ -25,6 +25,9 @@ COPY --from=build /app/dist /usr/share/nginx/html
 # Copy data directory to nginx html directory
 COPY --from=build /app/data /usr/share/nginx/html/data
 
+# Copy public directory (robots.txt, sitemap.xml) to nginx html directory
+COPY --from=build /app/public /usr/share/nginx/html
+
 # Copy custom nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
