@@ -1,0 +1,275 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "developerPool": "Entwickler-Pool",
+    "howItWorks": "Wie es funktioniert",
+    "projectRequest": "Projektanfrage",
+    "aboutUs": "Über uns",
+    "language": "Sprache"
+  },
+  "about": {
+    "title": "Über Developer2U",
+    "subtitle": "Wir glauben, dass moderne Projekte flexible, KI-gestützte Expertise erfordern. Genau das liefern wir.",
+    "mission": {
+      "title": "Entwickler sind keine Ressourcen — sie sind Partner.",
+      "description": "Wir nutzen moderne KI-Tools während der Entwicklung, um beste Qualität und schnelle Lieferung zu gewährleisten. Unsere Plattform verbindet Unternehmen mit erfahrenen Softwareentwicklern, die projektbasiert arbeiten und modernste KI-Tools und autonome Agenten einsetzen."
+    },
+    "vision": {
+      "title": "Unsere Vision",
+      "slogan": "\"Top-Entwickler. Keine Bürokratie.\"",
+      "description": "Wir stellen uns eine Welt vor, in der Unternehmen sofort auf erstklassige Entwicklertalente zugreifen können, ohne den Overhead traditioneller Einstellungsprozesse. Unsere Plattform beseitigt Bürokratie und verbindet Sie direkt mit qualifizierten Fachleuten, die sofort einen Beitrag leisten können."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "quality": {
+        "title": "Qualität",
+        "description": "Fokus auf KI-Kompetenz und technische Exzellenz"
+      },
+      "transparency": {
+        "title": "Transparenz",
+        "description": "Faire und offene Prozesse für Kunden und Entwickler"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nutzung modernster KI-Tools und Methoden"
+      },
+      "partnership": {
+        "title": "Partnerschaft",
+        "description": "Aufbau dauerhafter Beziehungen, nicht nur Transaktionen"
+      }
+    },
+    "leadership": {
+      "title": "Wer steht hinter developer2u.de?",
+      "name": "Patrick Hess",
+      "position": "CEO von Com2u.de",
+      "company": "Com2u.de",
+      "address": "Frohschammerstr. 6, 80807 München, Deutschland",
+      "email": "info@developer2u.de"
+    },
+    "whyChoose": {
+      "title": "Warum Developer2U wählen?",
+      "fastAccess": {
+        "title": "Schneller Zugang",
+        "description": "Unternehmen erhalten schnellen Zugang zu geprüften Experten ohne langfristige Verpflichtungen"
+      },
+      "aiEnhanced": {
+        "title": "KI-Unterstützung",
+        "description": "Alle Entwickler nutzen modernste KI-Tools und autonome Agenten"
+      },
+      "projectBased": {
+        "title": "Projektbasiert",
+        "description": "Flexibles Engagement-Modell, das sich an Ihre Projektanforderungen anpasst"
+      },
+      "vettedExperts": {
+        "title": "Geprüfte Experten",
+        "description": "Alle Entwickler werden gründlich auf technische Fähigkeiten und Zuverlässigkeit überprüft"
+      },
+      "directConnection": {
+        "title": "Direkte Verbindung",
+        "description": "Arbeiten Sie direkt mit Entwicklern ohne Zwischenhändler oder versteckte Gebühren"
+      },
+      "globalReach": {
+        "title": "Globale Reichweite",
+        "description": "Zugang zu internationalem Talentpool mit vielfältiger Expertise"
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihren Entwicklungsprozess zu transformieren?",
+      "description": "Schließen Sie sich den Unternehmen an, die bereits von KI-gestützter Entwicklungsexpertise profitieren.",
+      "startProject": "Starten Sie Ihr Projekt",
+      "meetDevelopers": "Lernen Sie unsere Entwickler kennen"
+    }
+  },
+  "request": {
+    "title": "Projektanfrage",
+    "subtitle": "Erzählen Sie uns von Ihrem Projekt und wir verbinden Sie mit dem perfekten Entwickler",
+    "contactInfo": {
+      "title": "Kontaktinformationen",
+      "name": "Name *",
+      "namePlaceholder": "Ihr vollständiger Name",
+      "company": "Unternehmen *",
+      "companyPlaceholder": "Ihr Unternehmensname",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre.email@unternehmen.de"
+    },
+    "projectDetails": {
+      "title": "Projektdetails",
+      "description": "Projektbeschreibung *",
+      "descriptionPlaceholder": "Beschreiben Sie Ihr Projekt, Ziele und Anforderungen im Detail...",
+      "skills": "Erforderliche Fähigkeiten / Technologien",
+      "skillsPlaceholder": "z.B. React, Node.js, Python, AWS, Machine Learning, etc.",
+      "startDate": "Startdatum",
+      "duration": "Projektdauer",
+      "durationOptions": {
+        "select": "Dauer auswählen",
+        "1-2weeks": "1-2 Wochen",
+        "3-4weeks": "3-4 Wochen",
+        "1-2months": "1-2 Monate",
+        "3-6months": "3-6 Monate",
+        "6+months": "6+ Monate",
+        "ongoing": "Fortlaufend"
+      },
+      "budget": "Budgetbereich (Optional)",
+      "budgetOptions": {
+        "select": "Budgetbereich auswählen",
+        "under5k": "Unter €5.000",
+        "5k-15k": "€5.000 - €15.000",
+        "15k-30k": "€15.000 - €30.000",
+        "30k-50k": "€30.000 - €50.000",
+        "50k+": "€50.000+",
+        "discuss": "Separat besprechen"
+      }
+    },
+    "aiEnhancement": {
+      "title": "KI-Unterstützung",
+      "support": "KI-Agent-Unterstützung erlaubt *",
+      "yes": "Ja, KI-Tools zur Verbesserung der Entwicklung nutzen",
+      "no": "Nein, nur traditionelle Entwicklung",
+      "info": "KI-Tools können die Entwicklung erheblich beschleunigen und die Codequalität verbessern"
+    },
+    "additionalInfo": {
+      "title": "Zusätzliche Informationen",
+      "attachment": "Anhang (Optional)",
+      "attachmentInfo": "Laden Sie Projektspezifikationen, Wireframes oder andere relevante Dokumente hoch"
+    },
+    "submit": {
+      "button": "Projektanfrage einreichen",
+      "info": "Wir prüfen Ihre Anfrage und melden uns innerhalb von 24 Stunden bei Ihnen"
+    },
+    "infoSection": {
+      "quickResponse": {
+        "title": "Schnelle Antwort",
+        "description": "Wir antworten auf alle Anfragen innerhalb von 24 Stunden"
+      },
+      "perfectMatch": {
+        "title": "Perfekte Übereinstimmung",
+        "description": "Wir finden Entwickler, die genau zu Ihren Anforderungen passen"
+      },
+      "qualityAssured": {
+        "title": "Qualität garantiert",
+        "description": "Alle unsere Entwickler sind geprüft und verifiziert"
+      }
+    }
+  },
+  "process": {
+    "title": "Wie es funktioniert",
+    "subtitle1": "Von der Idee zum Erfolg in 3 Tagen",
+    "subtitle2": "Sie beschreiben Ihre Anforderungen — wir liefern den passenden Entwickler. Keine Rekrutierung. Keine Verzögerungen.",
+    "steps": {
+      "step1": {
+        "title": "Anfrage einreichen",
+        "description": "Beschreiben Sie Ihr Projekt oder Ihre Entwicklungs- anforderungen.",
+        "details": "Teilen Sie uns Ihre Projektanforderungen, den Zeitplan und die spezifischen Technologien mit, die Sie benötigen. Unser einfaches Formular erleichtert es Ihnen, Ihre Vision zu kommunizieren."
+      },
+      "step2": {
+        "title": "Matching",
+        "description": "Wir schlagen die am besten geeigneten Entwickler vor.",
+        "details": "Unser Team prüft Ihre Anforderungen und vermittelt Ihnen Entwickler, die über die richtigen Fähigkeiten, Erfahrungen und Verfügbarkeit für Ihr Projekt verfügen."
+      },
+      "step3": {
+        "title": "Kickoff",
+        "description": "Sofortiger Start — Sie definieren Ihre Anforderungen.",
+        "details": "Nach dem Matching können Sie sofort mit Ihrem Entwickler zusammenarbeiten. Definieren Sie Projektumfang, Meilensteine und Kommunikationspräferenzen."
+      },
+      "step4": {
+        "title": "Zusammenarbeit",
+        "description": "Transparente, KI-unterstützte Kommunikation.",
+        "details": "Arbeiten Sie mit modernen Kollaborationstools zusammen. Unsere Entwickler nutzen KI, um die Produktivität zu steigern und schneller qualitativ hochwertige Ergebnisse zu liefern."
+      },
+      "step5": {
+        "title": "Abschluss",
+        "description": "Projektabschluss und Rechnungsstellung.",
+        "details": "Überprüfen Sie die Ergebnisse, geben Sie Feedback und schließen Sie Ihr Projekt ab. Einfache, transparente Rechnungsstellung ohne versteckte Kosten."
+      }
+    },
+    "benefits": {
+      "title": "Warum Developer2U wählen?",
+      "items": {
+        "fastTurnaround": {
+          "title": "Schnelle Bearbeitung",
+          "description": "Vermittlung mit Entwicklern in Stunden, nicht Wochen"
+        },
+        "vettedProfessionals": {
+          "title": "Geprüfte Fachleute",
+          "description": "Alle Entwickler werden gründlich überprüft und verifiziert"
+        },
+        "aiEnhanced": {
+          "title": "KI-Unterstützung",
+          "description": "Entwickler nutzen modernste KI-Tools für bessere Ergebnisse"
+        },
+        "directConnection": {
+          "title": "Direkte Verbindung",
+          "description": "Arbeiten Sie direkt mit Entwicklern, ohne Zwischenhändler"
+        },
+        "noHiddenFees": {
+          "title": "Keine versteckten Gebühren",
+          "description": "Transparente Preisgestaltung ohne Provisionsgebühren"
+        },
+        "globalTalent": {
+          "title": "Globale Talente",
+          "description": "Zugang zu Entwicklern aus der ganzen Welt"
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit loszulegen?",
+      "description": "Schließen Sie sich Hunderten von Unternehmen an, die Developer2U für ihre Entwicklungsbedürfnisse vertrauen.",
+      "startProject": "Starten Sie Ihr Projekt",
+      "browseDevelopers": "Entwickler durchsuchen"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Developer2U",
+      "subtitle": "Wir bringen KI-gestützte Entwickler zu Ihnen!"
+    },
+    "benefits": {
+      "title": "Vorteile externer Entwickler",
+      "subtitle": "Dynamische Zuweisung zu Ihrem Projekt",
+      "items": {
+        "onDemand": {
+          "title": "Bedarfsgerechter Zugang zu Experten",
+          "description": "Sofortiger Zugriff auf geprüfte Fachleute, die bereit sind, Ihr Projekt zu starten"
+        },
+        "efficiency": {
+          "title": "Erhöhte Effizienz durch KI-Agenten",
+          "description": "Unsere Entwickler nutzen modernste KI-Tools, um schnellere Ergebnisse zu liefern"
+        },
+        "experience": {
+          "title": "Entwickler mit umfangreicher Projekterfahrung",
+          "description": "Arbeiten Sie mit Profis, die eine nachgewiesene Erfolgsbilanz in verschiedenen Branchen haben"
+        },
+        "noFees": {
+          "title": "Keine Provisionsgebühren – direkte Buchung",
+          "description": "Verbinden Sie sich direkt mit Entwicklern ohne versteckte Gebühren oder Vermittlungskosten"
+        }
+      }
+    },
+    "aiIntegration": {
+      "title": "KI-Tools und autonome Agenten",
+      "subtitle": "Top-Entwickler. Projektbasiert. KI-verbessert.",
+      "description": "Bei developer2u.de finden Sie geprüfte Softwareentwickler, die modernste KI-Tools und Agenten nutzen, um Ihre Softwareprojekte zu verbessern — schnell, flexibel und effizient."
+    },
+    "techStack": {
+      "title": "Moderner Entwicklungs-Stack",
+      "categories": {
+        "modernStacks": "Moderne Stacks",
+        "devOps": "DevOps",
+        "testing": "Testing",
+        "aiAutomation": "KI/Automatisierung",
+        "cloud": "Cloud",
+        "projectTools": "Projekt-Tools"
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihr Projekt zu starten?",
+      "description": "Verbinden Sie sich noch heute mit KI-gestützten Entwicklern und beschleunigen Sie Ihre Softwareentwicklung.",
+      "requestDeveloper": "Entwickler anfragen",
+      "learnHow": "Erfahren Sie, wie es funktioniert"
+    },
+    "buttons": {
+      "browseDevelopers": "Entwickler durchsuchen",
+      "startProject": "Projekt starten"
+    }
+  }
+}

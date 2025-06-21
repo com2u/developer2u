@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import GradientText from '../components/GradientText'
 import StarBorder from '../components/StarBorder'
 
 const ProjectRequest = () => {
+  const { t } = useTranslation()
   const [formData, setFormData] = useState({
     name: '',
     company: '',
@@ -35,7 +37,7 @@ const ProjectRequest = () => {
     e.preventDefault()
     
     // Create email content
-    const subject = encodeURIComponent('Project Request')
+    const subject = encodeURIComponent(t('request.title'))
     const body = encodeURIComponent(`Hello,
 
 I would like to submit a project request with the following details:
@@ -71,7 +73,7 @@ ${formData.name}`)
         <div className="text-center mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
             <i className="fas fa-paper-plane text-primary mr-3"></i>
-            Project Request
+            {t('request.title')}
           </h1>
           <GradientText
             colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
@@ -79,7 +81,7 @@ ${formData.name}`)
             showBorder={false}
             className="text-lg"
           >
-            Tell us about your project and we'll connect you with the perfect developer
+            {t('request.subtitle')}
           </GradientText>
         </div>
 
@@ -96,12 +98,12 @@ ${formData.name}`)
               <div>
                 <h2 className="text-xl font-semibold text-white mb-4">
                   <i className="fas fa-user text-primary mr-2"></i>
-                  Contact Information
+                  {t('request.contactInfo.title')}
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-sm font-medium text-gray-300 mb-2">
-                      Name *
+                      {t('request.contactInfo.name')}
                     </label>
                     <input
                       type="text"
@@ -109,13 +111,13 @@ ${formData.name}`)
                       value={formData.name}
                       onChange={handleInputChange}
                       className="input-field w-full"
-                      placeholder="Your full name"
+                      placeholder={t('request.contactInfo.namePlaceholder')}
                       required
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-300 mb-2">
-                      Company *
+                      {t('request.contactInfo.company')}
                     </label>
                     <input
                       type="text"
@@ -123,13 +125,13 @@ ${formData.name}`)
                       value={formData.company}
                       onChange={handleInputChange}
                       className="input-field w-full"
-                      placeholder="Your company name"
+                      placeholder={t('request.contactInfo.companyPlaceholder')}
                       required
                     />
                   </div>
                   <div className="md:col-span-2">
                     <label className="block text-sm font-medium text-gray-300 mb-2">
-                      Email
+                      {t('request.contactInfo.email')}
                     </label>
                     <input
                       type="email"
@@ -137,7 +139,7 @@ ${formData.name}`)
                       value={formData.email}
                       onChange={handleInputChange}
                       className="input-field w-full"
-                      placeholder="your.email@company.com"
+                      placeholder={t('request.contactInfo.emailPlaceholder')}
                     />
                   </div>
                 </div>
@@ -148,12 +150,12 @@ ${formData.name}`)
             <div>
               <h2 className="text-xl font-semibold text-white mb-4">
                 <i className="fas fa-project-diagram text-primary mr-2"></i>
-                Project Details
+                {t('request.projectDetails.title')}
               </h2>
               <div className="space-y-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-300 mb-2">
-                    Project Description *
+                    {t('request.projectDetails.description')}
                   </label>
                   <textarea
                     name="projectDescription"
@@ -161,13 +163,13 @@ ${formData.name}`)
                     onChange={handleInputChange}
                     rows={4}
                     className="input-field w-full"
-                    placeholder="Describe your project, goals, and requirements in detail..."
+                    placeholder={t('request.projectDetails.descriptionPlaceholder')}
                     required
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-300 mb-2">
-                    Required Skills / Technologies
+                    {t('request.projectDetails.skills')}
                   </label>
                   <textarea
                     name="requiredSkills"
@@ -175,13 +177,13 @@ ${formData.name}`)
                     onChange={handleInputChange}
                     rows={3}
                     className="input-field w-full"
-                    placeholder="e.g., React, Node.js, Python, AWS, Machine Learning, etc."
+                    placeholder={t('request.projectDetails.skillsPlaceholder')}
                   />
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-sm font-medium text-gray-300 mb-2">
-                      Start Date
+                      {t('request.projectDetails.startDate')}
                     </label>
                     <input
                       type="date"
@@ -193,7 +195,7 @@ ${formData.name}`)
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-300 mb-2">
-                      Project Duration
+                      {t('request.projectDetails.duration')}
                     </label>
                     <select
                       name="projectDuration"
@@ -201,19 +203,19 @@ ${formData.name}`)
                       onChange={handleInputChange}
                       className="input-field w-full"
                     >
-                      <option value="">Select duration</option>
-                      <option value="1-2 weeks">1-2 weeks</option>
-                      <option value="3-4 weeks">3-4 weeks</option>
-                      <option value="1-2 months">1-2 months</option>
-                      <option value="3-6 months">3-6 months</option>
-                      <option value="6+ months">6+ months</option>
-                      <option value="ongoing">Ongoing</option>
+                      <option value="">{t('request.projectDetails.durationOptions.select')}</option>
+                      <option value="1-2 weeks">{t('request.projectDetails.durationOptions.1-2weeks')}</option>
+                      <option value="3-4 weeks">{t('request.projectDetails.durationOptions.3-4weeks')}</option>
+                      <option value="1-2 months">{t('request.projectDetails.durationOptions.1-2months')}</option>
+                      <option value="3-6 months">{t('request.projectDetails.durationOptions.3-6months')}</option>
+                      <option value="6+ months">{t('request.projectDetails.durationOptions.6+months')}</option>
+                      <option value="ongoing">{t('request.projectDetails.durationOptions.ongoing')}</option>
                     </select>
                   </div>
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-300 mb-2">
-                    Budget Range (Optional)
+                    {t('request.projectDetails.budget')}
                   </label>
                   <select
                     name="budget"
@@ -221,13 +223,13 @@ ${formData.name}`)
                     onChange={handleInputChange}
                     className="input-field w-full"
                   >
-                    <option value="">Select budget range</option>
-                    <option value="Under €5,000">Under €5,000</option>
-                    <option value="€5,000 - €15,000">€5,000 - €15,000</option>
-                    <option value="€15,000 - €30,000">€15,000 - €30,000</option>
-                    <option value="€30,000 - €50,000">€30,000 - €50,000</option>
-                    <option value="€50,000+">€50,000+</option>
-                    <option value="Discuss separately">Discuss separately</option>
+                    <option value="">{t('request.projectDetails.budgetOptions.select')}</option>
+                    <option value="Under €5,000">{t('request.projectDetails.budgetOptions.under5k')}</option>
+                    <option value="€5,000 - €15,000">{t('request.projectDetails.budgetOptions.5k-15k')}</option>
+                    <option value="€15,000 - €30,000">{t('request.projectDetails.budgetOptions.15k-30k')}</option>
+                    <option value="€30,000 - €50,000">{t('request.projectDetails.budgetOptions.30k-50k')}</option>
+                    <option value="€50,000+">{t('request.projectDetails.budgetOptions.50k+')}</option>
+                    <option value="Discuss separately">{t('request.projectDetails.budgetOptions.discuss')}</option>
                   </select>
                 </div>
               </div>
@@ -237,11 +239,11 @@ ${formData.name}`)
             <div>
               <h2 className="text-xl font-semibold text-white mb-4">
                 <i className="fas fa-robot text-primary mr-2"></i>
-                AI Enhancement
+                {t('request.aiEnhancement.title')}
               </h2>
               <div>
                 <label className="block text-sm font-medium text-gray-300 mb-2">
-                  AI Agent Support Allowed *
+                  {t('request.aiEnhancement.support')}
                 </label>
                 <div className="flex space-x-4">
                   <label className="flex items-center">
@@ -253,7 +255,7 @@ ${formData.name}`)
                       onChange={handleInputChange}
                       className="mr-2 text-primary"
                     />
-                    <span className="text-white">Yes, use AI tools to enhance development</span>
+                    <span className="text-white">{t('request.aiEnhancement.yes')}</span>
                   </label>
                   <label className="flex items-center">
                     <input
@@ -264,11 +266,11 @@ ${formData.name}`)
                       onChange={handleInputChange}
                       className="mr-2 text-primary"
                     />
-                    <span className="text-white">No, traditional development only</span>
+                    <span className="text-white">{t('request.aiEnhancement.no')}</span>
                   </label>
                 </div>
                 <p className="text-sm text-gray-400 mt-2">
-                  AI tools can significantly speed up development and improve code quality
+                  {t('request.aiEnhancement.info')}
                 </p>
               </div>
             </div>
@@ -277,11 +279,11 @@ ${formData.name}`)
             <div>
               <h2 className="text-xl font-semibold text-white mb-4">
                 <i className="fas fa-paperclip text-primary mr-2"></i>
-                Additional Information
+                {t('request.additionalInfo.title')}
               </h2>
               <div>
                 <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Attachment (Optional)
+                  {t('request.additionalInfo.attachment')}
                 </label>
                 <input
                   type="file"
@@ -291,7 +293,7 @@ ${formData.name}`)
                   accept=".pdf,.doc,.docx,.txt,.png,.jpg,.jpeg"
                 />
                 <p className="text-sm text-gray-400 mt-2">
-                  Upload project specifications, wireframes, or any relevant documents
+                  {t('request.additionalInfo.attachmentInfo')}
                 </p>
               </div>
             </div>
@@ -303,10 +305,10 @@ ${formData.name}`)
                 className="btn-primary text-lg px-8 py-3"
               >
                 <i className="fas fa-paper-plane mr-2"></i>
-                Submit Project Request
+                {t('request.submit.button')}
               </button>
               <p className="text-sm text-gray-400 mt-4">
-                We'll review your request and get back to you within 24 hours
+                {t('request.submit.info')}
               </p>
             </div>
           </form>
@@ -318,22 +320,22 @@ ${formData.name}`)
             <div className="text-3xl text-primary mb-3">
               <i className="fas fa-clock"></i>
             </div>
-            <h3 className="text-lg font-semibold text-white mb-2">Quick Response</h3>
-            <p className="text-gray-300 text-sm">We respond to all requests within 24 hours</p>
+            <h3 className="text-lg font-semibold text-white mb-2">{t('request.infoSection.quickResponse.title')}</h3>
+            <p className="text-gray-300 text-sm">{t('request.infoSection.quickResponse.description')}</p>
           </div>
           <div className="card text-center">
             <div className="text-3xl text-secondary mb-3">
               <i className="fas fa-handshake"></i>
             </div>
-            <h3 className="text-lg font-semibold text-white mb-2">Perfect Match</h3>
-            <p className="text-gray-300 text-sm">We find developers that fit your exact needs</p>
+            <h3 className="text-lg font-semibold text-white mb-2">{t('request.infoSection.perfectMatch.title')}</h3>
+            <p className="text-gray-300 text-sm">{t('request.infoSection.perfectMatch.description')}</p>
           </div>
           <div className="card text-center">
             <div className="text-3xl text-primary mb-3">
               <i className="fas fa-shield-alt"></i>
             </div>
-            <h3 className="text-lg font-semibold text-white mb-2">Quality Assured</h3>
-            <p className="text-gray-300 text-sm">All our developers are vetted and verified</p>
+            <h3 className="text-lg font-semibold text-white mb-2">{t('request.infoSection.qualityAssured.title')}</h3>
+            <p className="text-gray-300 text-sm">{t('request.infoSection.qualityAssured.description')}</p>
           </div>
         </div>
       </div>

@@ -1,15 +1,20 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import { useLanguage } from '../i18n/LanguageContext'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isLanguageMenuOpen, setIsLanguageMenuOpen] = useState(false)
   const location = useLocation()
+  const { t } = useTranslation()
+  const { currentLanguage, changeLanguage, languages } = useLanguage()
 
   const navItems = [
-    { path: '/developers', label: 'Developer Pool', icon: 'fas fa-users' },
-    { path: '/process', label: 'How It Works', icon: 'fas fa-cogs' },
-    { path: '/request', label: 'Project Request', icon: 'fas fa-paper-plane' },
-    { path: '/about', label: 'About Us', icon: 'fas fa-info-circle' }
+    { path: '/developers', label: t('navbar.developerPool'), icon: 'fas fa-users' },
+    { path: '/process', label: t('navbar.howItWorks'), icon: 'fas fa-cogs' },
+    { path: '/request', label: t('navbar.projectRequest'), icon: 'fas fa-paper-plane' },
+    { path: '/about', label: t('navbar.aboutUs'), icon: 'fas fa-info-circle' }
   ]
 
   const isActive = (path) => location.pathname === path
@@ -35,12 +40,46 @@ const Navbar = () => {
               }`}
             >
               <i className="fas fa-home mr-2"></i>
-              Home
+              {t('navbar.home')}
             </Link>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
+            {/* Language Selector */}
+            <div className="relative">
+              <button
+                onClick={() => setIsLanguageMenuOpen(!isLanguageMenuOpen)}
+                className="flex items-center space-x-2 text-sm font-medium text-white hover:text-primary transition-colors duration-200"
+              >
+                <i className="fas fa-globe text-primary"></i>
+                <span>{languages.find(lang => lang.code === currentLanguage)?.name || 'English'}</span>
+                <i className={`fas fa-chevron-${isLanguageMenuOpen ? 'up' : 'down'} text-xs`}></i>
+              </button>
+              
+              {isLanguageMenuOpen && (
+                <div className="absolute right-0 mt-2 w-40 bg-gray-900 border border-gray-800 rounded-md shadow-lg z-50">
+                  <div className="py-1">
+                    {languages.map((language) => (
+                      <button
+                        key={language.code}
+                        onClick={() => {
+                          changeLanguage(language.code);
+                          setIsLanguageMenuOpen(false);
+                        }}
+                        className={`block w-full text-left px-4 py-2 text-sm ${
+                          currentLanguage === language.code
+                            ? 'text-primary bg-gray-800'
+                            : 'text-white hover:bg-gray-800'
+                        }`}
+                      >
+                        {language.name}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
             {navItems.map((item) => (
               <Link
                 key={item.path}
@@ -70,6 +109,29 @@ const Navbar = () => {
         {isMenuOpen && (
           <div className="md:hidden border-t border-gray-800">
             <div className="px-2 pt-2 pb-3 space-y-1">
+              {/* Language Selector for Mobile */}
+              <div className="px-3 py-2">
+                <div className="flex flex-col space-y-2">
+                  <span className="text-sm font-medium text-white">{t('navbar.language')}:</span>
+                  <div className="flex space-x-2">
+                    {languages.map((language) => (
+                      <button
+                        key={language.code}
+                        onClick={() => {
+                          changeLanguage(language.code);
+                        }}
+                        className={`px-3 py-1 text-sm rounded-md ${
+                          currentLanguage === language.code
+                            ? 'bg-primary text-white'
+                            : 'bg-gray-800 text-white hover:bg-gray-700'
+                        }`}
+                      >
+                        {language.name}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
               {navItems.map((item) => (
                 <Link
                   key={item.path}

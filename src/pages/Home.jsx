@@ -1,39 +1,41 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import LetterGlitch from '../components/LetterGlitch'
 import GradientText from '../components/GradientText'
 
 const Home = () => {
+  const { t } = useTranslation()
   const benefits = [
     {
       icon: 'fas fa-bolt',
-      title: 'On-demand access to expert developers',
-      description: 'Get immediate access to vetted professionals ready to start your project'
+      title: t('home.benefits.items.onDemand.title'),
+      description: t('home.benefits.items.onDemand.description')
     },
     {
       icon: 'fas fa-robot',
-      title: 'Increased efficiency through AI agents',
-      description: 'Our developers leverage cutting-edge AI tools to deliver faster results'
+      title: t('home.benefits.items.efficiency.title'),
+      description: t('home.benefits.items.efficiency.description')
     },
     {
       icon: 'fas fa-briefcase',
-      title: 'Developers with extensive project experience',
-      description: 'Work with professionals who have proven track records across industries'
+      title: t('home.benefits.items.experience.title'),
+      description: t('home.benefits.items.experience.description')
     },
     {
       icon: 'fas fa-handshake',
-      title: 'No commission fees – direct booking',
-      description: 'Connect directly with developers without hidden fees or middleman costs'
+      title: t('home.benefits.items.noFees.title'),
+      description: t('home.benefits.items.noFees.description')
     }
   ]
 
   const techStack = [
-    { category: 'Modern stacks', items: ['React', 'Vue', 'Node.js', 'Vite.js', 'Tailwind.css', 'Python'] },
-    { category: 'DevOps', items: ['Docker', 'Kubernetes', 'GitHub Actions', 'GitLab CI/CD'] },
-    { category: 'Testing', items: ['Playwright', 'Cypress', 'Selenium'] },
-    { category: 'AI/Automation', items: ['VSCode+Cline', 'GitHub Copilot', 'CrewAI', 'LangChain'] },
-    { category: 'Cloud', items: ['AWS', 'Azure', 'Google Cloud', 'Vercel'] },
-    { category: 'Project Tools', items: ['Jira', 'Confluence', 'Miro'] }
+    { category: t('home.techStack.categories.modernStacks'), items: ['React', 'Vue', 'Node.js', 'Vite.js', 'Tailwind.css', 'Python'] },
+    { category: t('home.techStack.categories.devOps'), items: ['Docker', 'Kubernetes', 'GitHub Actions', 'GitLab CI/CD'] },
+    { category: t('home.techStack.categories.testing'), items: ['Playwright', 'Cypress', 'Selenium'] },
+    { category: t('home.techStack.categories.aiAutomation'), items: ['VSCode+Cline', 'GitHub Copilot', 'CrewAI', 'LangChain'] },
+    { category: t('home.techStack.categories.cloud'), items: ['AWS', 'Azure', 'Google Cloud', 'Vercel'] },
+    { category: t('home.techStack.categories.projectTools'), items: ['Jira', 'Confluence', 'Miro'] }
   ]
 
   return (
@@ -61,7 +63,7 @@ const Home = () => {
             />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 relative z-20">
-            Developer2U
+            {t('home.hero.title')}
           </h1>
           <div className="mb-8 relative z-20">
             <GradientText
@@ -70,17 +72,17 @@ const Home = () => {
               showBorder={false}
               className="text-xl md:text-2xl"
             >
-              We bring AI-powered developers to you!
+              {t('home.hero.subtitle')}
             </GradientText>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center relative z-20">
             <Link to="/developers" className="btn-primary text-lg px-8 py-3">
               <i className="fas fa-users mr-2"></i>
-              Browse Developers
+              {t('home.buttons.browseDevelopers')}
             </Link>
             <Link to="/request" className="btn-secondary text-lg px-8 py-3">
               <i className="fas fa-paper-plane mr-2"></i>
-              Start Project
+              {t('home.buttons.startProject')}
             </Link>
           </div>
         </div>
@@ -91,10 +93,10 @@ const Home = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Benefits of External Developers
+              {t('home.benefits.title')}
             </h2>
             <p className="text-lg text-gray-300">
-              Dynamic allocation to your project
+              {t('home.benefits.subtitle')}
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -120,14 +122,13 @@ const Home = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              AI Tools and Autonomous Agents
+              {t('home.aiIntegration.title')}
             </h2>
             <p className="text-lg text-secondary mb-6">
-              Top developers. Project-based. AI-enhanced.
+              {t('home.aiIntegration.subtitle')}
             </p>
             <p className="text-gray-300 max-w-4xl mx-auto">
-              At developer2u.de, you'll find vetted software developers who leverage cutting-edge AI 
-              tools and agents to elevate your software projects — fast, flexible, and efficient.
+              {t('home.aiIntegration.description')}
             </p>
           </div>
         </div>
@@ -138,7 +139,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Modern Development Stack
+              {t('home.techStack.title')}
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -168,19 +169,19 @@ const Home = () => {
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Ready to Start Your Project?
+            {t('home.cta.title')}
           </h2>
           <p className="text-lg text-gray-300 mb-8">
-            Connect with AI-powered developers today and accelerate your software development.
+            {t('home.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/request" className="btn-primary text-lg px-8 py-3">
               <i className="fas fa-rocket mr-2"></i>
-              Request Developer
+              {t('home.cta.requestDeveloper')}
             </Link>
             <Link to="/process" className="btn-secondary text-lg px-8 py-3">
               <i className="fas fa-info-circle mr-2"></i>
-              Learn How It Works
+              {t('home.cta.learnHow')}
             </Link>
           </div>
         </div>

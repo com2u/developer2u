@@ -1,44 +1,46 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import GradientText from '../components/GradientText'
 import StarBorder from '../components/StarBorder'
 
 const HowItWorks = () => {
+  const { t } = useTranslation()
   const steps = [
     {
       number: 1,
       icon: 'fas fa-paper-plane',
-      title: 'Submit Request',
-      description: 'Describe your project or development needs.',
-      details: 'Tell us about your project requirements, timeline, and specific technologies you need. Our simple form makes it easy to communicate your vision.'
+      title: t('process.steps.step1.title'),
+      description: t('process.steps.step1.description'),
+      details: t('process.steps.step1.details')
     },
     {
       number: 2,
       icon: 'fas fa-search',
-      title: 'Matching',
-      description: 'We suggest the most suitable developers.',
-      details: 'Our team reviews your requirements and matches you with developers who have the right skills, experience, and availability for your project.'
+      title: t('process.steps.step2.title'),
+      description: t('process.steps.step2.description'),
+      details: t('process.steps.step2.details')
     },
     {
       number: 3,
       icon: 'fas fa-rocket',
-      title: 'Kickoff',
-      description: 'Start immediately — you will define your requirements.',
-      details: 'Once matched, you can start working with your developer right away. Define project scope, milestones, and communication preferences.'
+      title: t('process.steps.step3.title'),
+      description: t('process.steps.step3.description'),
+      details: t('process.steps.step3.details')
     },
     {
       number: 4,
       icon: 'fas fa-comments',
-      title: 'Collaboration',
-      description: 'Transparent, AI-assisted communication.',
-      details: 'Work together using modern collaboration tools. Our developers leverage AI to enhance productivity and deliver high-quality results faster.'
+      title: t('process.steps.step4.title'),
+      description: t('process.steps.step4.description'),
+      details: t('process.steps.step4.details')
     },
     {
       number: 5,
       icon: 'fas fa-check-circle',
-      title: 'Completion',
-      description: 'Project wrap-up and invoicing.',
-      details: 'Review deliverables, provide feedback, and complete your project. Simple, transparent invoicing with no hidden fees.'
+      title: t('process.steps.step5.title'),
+      description: t('process.steps.step5.description'),
+      details: t('process.steps.step5.details')
     }
   ]
 
@@ -49,7 +51,7 @@ const HowItWorks = () => {
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
             <i className="fas fa-cogs text-primary mr-3"></i>
-            How It Works
+            {t('process.title')}
           </h1>
           <GradientText
             colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
@@ -57,7 +59,7 @@ const HowItWorks = () => {
             showBorder={false}
             className="text-lg mb-6"
           >
-            From idea to success in 3 days
+            {t('process.subtitle1')}
           </GradientText>
           <GradientText
             colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
@@ -65,7 +67,7 @@ const HowItWorks = () => {
             showBorder={false}
             className="text-xl max-w-3xl mx-auto"
           >
-            You describe your needs — we deliver the right developer. No recruiting. No delays.
+            {t('process.subtitle2')}
           </GradientText>
         </div>
 
@@ -120,50 +122,50 @@ const HowItWorks = () => {
         >
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-white text-center mb-8">
-              Why Choose Developer2U?
+              {t('process.benefits.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="text-3xl text-primary mb-3">
                   <i className="fas fa-clock"></i>
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Fast Turnaround</h3>
-                <p className="text-gray-300 text-sm">Get matched with developers in hours, not weeks</p>
+                <h3 className="text-lg font-semibold text-white mb-2">{t('process.benefits.items.fastTurnaround.title')}</h3>
+                <p className="text-gray-300 text-sm">{t('process.benefits.items.fastTurnaround.description')}</p>
               </div>
               <div className="text-center">
                 <div className="text-3xl text-secondary mb-3">
                   <i className="fas fa-shield-alt"></i>
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Vetted Professionals</h3>
-                <p className="text-gray-300 text-sm">All developers are thoroughly screened and verified</p>
+                <h3 className="text-lg font-semibold text-white mb-2">{t('process.benefits.items.vettedProfessionals.title')}</h3>
+                <p className="text-gray-300 text-sm">{t('process.benefits.items.vettedProfessionals.description')}</p>
               </div>
               <div className="text-center">
                 <div className="text-3xl text-primary mb-3">
                   <i className="fas fa-robot"></i>
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">AI-Enhanced</h3>
-                <p className="text-gray-300 text-sm">Developers use cutting-edge AI tools for better results</p>
+                <h3 className="text-lg font-semibold text-white mb-2">{t('process.benefits.items.aiEnhanced.title')}</h3>
+                <p className="text-gray-300 text-sm">{t('process.benefits.items.aiEnhanced.description')}</p>
               </div>
               <div className="text-center">
                 <div className="text-3xl text-secondary mb-3">
                   <i className="fas fa-handshake"></i>
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Direct Connection</h3>
-                <p className="text-gray-300 text-sm">Work directly with developers, no middleman</p>
+                <h3 className="text-lg font-semibold text-white mb-2">{t('process.benefits.items.directConnection.title')}</h3>
+                <p className="text-gray-300 text-sm">{t('process.benefits.items.directConnection.description')}</p>
               </div>
               <div className="text-center">
                 <div className="text-3xl text-primary mb-3">
                   <i className="fas fa-dollar-sign"></i>
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">No Hidden Fees</h3>
-                <p className="text-gray-300 text-sm">Transparent pricing with no commission charges</p>
+                <h3 className="text-lg font-semibold text-white mb-2">{t('process.benefits.items.noHiddenFees.title')}</h3>
+                <p className="text-gray-300 text-sm">{t('process.benefits.items.noHiddenFees.description')}</p>
               </div>
               <div className="text-center">
                 <div className="text-3xl text-secondary mb-3">
                   <i className="fas fa-globe"></i>
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">Global Talent</h3>
-                <p className="text-gray-300 text-sm">Access developers from around the world</p>
+                <h3 className="text-lg font-semibold text-white mb-2">{t('process.benefits.items.globalTalent.title')}</h3>
+                <p className="text-gray-300 text-sm">{t('process.benefits.items.globalTalent.description')}</p>
               </div>
             </div>
           </div>
@@ -172,19 +174,19 @@ const HowItWorks = () => {
         {/* CTA Section */}
         <div className="text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">
-            Ready to Get Started?
+            {t('process.cta.title')}
           </h2>
           <p className="text-lg text-gray-300 mb-8">
-            Join hundreds of companies who trust Developer2U for their development needs.
+            {t('process.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/request" className="btn-primary text-lg px-8 py-3">
               <i className="fas fa-paper-plane mr-2"></i>
-              Start Your Project
+              {t('process.cta.startProject')}
             </Link>
             <Link to="/developers" className="btn-secondary text-lg px-8 py-3">
               <i className="fas fa-users mr-2"></i>
-              Browse Developers
+              {t('process.cta.browseDevelopers')}
             </Link>
           </div>
         </div>

@@ -1,0 +1,275 @@
+{
+  "navbar": {
+    "home": "Home",
+    "developerPool": "Developer Pool",
+    "howItWorks": "How It Works",
+    "projectRequest": "Project Request",
+    "aboutUs": "About Us",
+    "language": "Language"
+  },
+  "about": {
+    "title": "About Developer2U",
+    "subtitle": "We believe modern projects require flexible, AI-powered expertise. That's exactly what we deliver.",
+    "mission": {
+      "title": "Developers aren't resources — they're partners.",
+      "description": "We are using modern AI tools during development to provide best quality and fast delivery. Our platform connects companies with experienced software developers who work on a project basis and use state-of-the-art AI tools and autonomous agents."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "slogan": "\"Top developers. No bureaucracy.\"",
+      "description": "We envision a world where companies can access top-tier development talent instantly, without the overhead of traditional hiring processes. Our platform eliminates bureaucracy and connects you directly with skilled professionals who can start contributing immediately."
+    },
+    "values": {
+      "title": "Our Values",
+      "quality": {
+        "title": "Quality",
+        "description": "Focus on AI competence and technical excellence"
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "Fair and open processes for both clients and developers"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Embracing cutting-edge AI tools and methodologies"
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "Building lasting relationships, not just transactions"
+      }
+    },
+    "leadership": {
+      "title": "Who is behind developer2u.de?",
+      "name": "Patrick Hess",
+      "position": "CEO of Com2u.de",
+      "company": "Com2u.de",
+      "address": "Frohschammerstr. 6, 80807 Munich, Germany",
+      "email": "info@developer2u.de"
+    },
+    "whyChoose": {
+      "title": "Why Choose Developer2U?",
+      "fastAccess": {
+        "title": "Fast Access",
+        "description": "Companies gain fast access to vetted experts without long-term commitments"
+      },
+      "aiEnhanced": {
+        "title": "AI-Enhanced",
+        "description": "All developers use state-of-the-art AI tools and autonomous agents"
+      },
+      "projectBased": {
+        "title": "Project-Based",
+        "description": "Flexible engagement model that adapts to your project needs"
+      },
+      "vettedExperts": {
+        "title": "Vetted Experts",
+        "description": "All developers are thoroughly screened for technical skills and reliability"
+      },
+      "directConnection": {
+        "title": "Direct Connection",
+        "description": "Work directly with developers without intermediaries or hidden fees"
+      },
+      "globalReach": {
+        "title": "Global Reach",
+        "description": "Access to international talent pool with diverse expertise"
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Development Process?",
+      "description": "Join the companies that are already benefiting from AI-powered development expertise.",
+      "startProject": "Start Your Project",
+      "meetDevelopers": "Meet Our Developers"
+    }
+  },
+  "request": {
+    "title": "Project Request",
+    "subtitle": "Tell us about your project and we'll connect you with the perfect developer",
+    "contactInfo": {
+      "title": "Contact Information",
+      "name": "Name *",
+      "namePlaceholder": "Your full name",
+      "company": "Company *",
+      "companyPlaceholder": "Your company name",
+      "email": "Email",
+      "emailPlaceholder": "your.email@company.com"
+    },
+    "projectDetails": {
+      "title": "Project Details",
+      "description": "Project Description *",
+      "descriptionPlaceholder": "Describe your project, goals, and requirements in detail...",
+      "skills": "Required Skills / Technologies",
+      "skillsPlaceholder": "e.g., React, Node.js, Python, AWS, Machine Learning, etc.",
+      "startDate": "Start Date",
+      "duration": "Project Duration",
+      "durationOptions": {
+        "select": "Select duration",
+        "1-2weeks": "1-2 weeks",
+        "3-4weeks": "3-4 weeks",
+        "1-2months": "1-2 months",
+        "3-6months": "3-6 months",
+        "6+months": "6+ months",
+        "ongoing": "Ongoing"
+      },
+      "budget": "Budget Range (Optional)",
+      "budgetOptions": {
+        "select": "Select budget range",
+        "under5k": "Under €5,000",
+        "5k-15k": "€5,000 - €15,000",
+        "15k-30k": "€15,000 - €30,000",
+        "30k-50k": "€30,000 - €50,000",
+        "50k+": "€50,000+",
+        "discuss": "Discuss separately"
+      }
+    },
+    "aiEnhancement": {
+      "title": "AI Enhancement",
+      "support": "AI Agent Support Allowed *",
+      "yes": "Yes, use AI tools to enhance development",
+      "no": "No, traditional development only",
+      "info": "AI tools can significantly speed up development and improve code quality"
+    },
+    "additionalInfo": {
+      "title": "Additional Information",
+      "attachment": "Attachment (Optional)",
+      "attachmentInfo": "Upload project specifications, wireframes, or any relevant documents"
+    },
+    "submit": {
+      "button": "Submit Project Request",
+      "info": "We'll review your request and get back to you within 24 hours"
+    },
+    "infoSection": {
+      "quickResponse": {
+        "title": "Quick Response",
+        "description": "We respond to all requests within 24 hours"
+      },
+      "perfectMatch": {
+        "title": "Perfect Match",
+        "description": "We find developers that fit your exact needs"
+      },
+      "qualityAssured": {
+        "title": "Quality Assured",
+        "description": "All our developers are vetted and verified"
+      }
+    }
+  },
+  "process": {
+    "title": "How It Works",
+    "subtitle1": "From idea to success in 3 days",
+    "subtitle2": "You describe your needs — we deliver the right developer. No recruiting. No delays.",
+    "steps": {
+      "step1": {
+        "title": "Submit Request",
+        "description": "Describe your project or development needs.",
+        "details": "Tell us about your project requirements, timeline, and specific technologies you need. Our simple form makes it easy to communicate your vision."
+      },
+      "step2": {
+        "title": "Matching",
+        "description": "We suggest the most suitable developers.",
+        "details": "Our team reviews your requirements and matches you with developers who have the right skills, experience, and availability for your project."
+      },
+      "step3": {
+        "title": "Kickoff",
+        "description": "Start immediately — you will define your requirements.",
+        "details": "Once matched, you can start working with your developer right away. Define project scope, milestones, and communication preferences."
+      },
+      "step4": {
+        "title": "Collaboration",
+        "description": "Transparent, AI-assisted communication.",
+        "details": "Work together using modern collaboration tools. Our developers leverage AI to enhance productivity and deliver high-quality results faster."
+      },
+      "step5": {
+        "title": "Completion",
+        "description": "Project wrap-up and invoicing.",
+        "details": "Review deliverables, provide feedback, and complete your project. Simple, transparent invoicing with no hidden fees."
+      }
+    },
+    "benefits": {
+      "title": "Why Choose Developer2U?",
+      "items": {
+        "fastTurnaround": {
+          "title": "Fast Turnaround",
+          "description": "Get matched with developers in hours, not weeks"
+        },
+        "vettedProfessionals": {
+          "title": "Vetted Professionals",
+          "description": "All developers are thoroughly screened and verified"
+        },
+        "aiEnhanced": {
+          "title": "AI-Enhanced",
+          "description": "Developers use cutting-edge AI tools for better results"
+        },
+        "directConnection": {
+          "title": "Direct Connection",
+          "description": "Work directly with developers, no middleman"
+        },
+        "noHiddenFees": {
+          "title": "No Hidden Fees",
+          "description": "Transparent pricing with no commission charges"
+        },
+        "globalTalent": {
+          "title": "Global Talent",
+          "description": "Access developers from around the world"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Join hundreds of companies who trust Developer2U for their development needs.",
+      "startProject": "Start Your Project",
+      "browseDevelopers": "Browse Developers"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Developer2U",
+      "subtitle": "We bring AI-powered developers to you!"
+    },
+    "benefits": {
+      "title": "Benefits of External Developers",
+      "subtitle": "Dynamic allocation to your project",
+      "items": {
+        "onDemand": {
+          "title": "On-demand access to expert developers",
+          "description": "Get immediate access to vetted professionals ready to start your project"
+        },
+        "efficiency": {
+          "title": "Increased efficiency through AI agents",
+          "description": "Our developers leverage cutting-edge AI tools to deliver faster results"
+        },
+        "experience": {
+          "title": "Developers with extensive project experience",
+          "description": "Work with professionals who have proven track records across industries"
+        },
+        "noFees": {
+          "title": "No commission fees – direct booking",
+          "description": "Connect directly with developers without hidden fees or middleman costs"
+        }
+      }
+    },
+    "aiIntegration": {
+      "title": "AI Tools and Autonomous Agents",
+      "subtitle": "Top developers. Project-based. AI-enhanced.",
+      "description": "At developer2u.de, you'll find vetted software developers who leverage cutting-edge AI tools and agents to elevate your software projects — fast, flexible, and efficient."
+    },
+    "techStack": {
+      "title": "Modern Development Stack",
+      "categories": {
+        "modernStacks": "Modern stacks",
+        "devOps": "DevOps",
+        "testing": "Testing",
+        "aiAutomation": "AI/Automation",
+        "cloud": "Cloud",
+        "projectTools": "Project Tools"
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "description": "Connect with AI-powered developers today and accelerate your software development.",
+      "requestDeveloper": "Request Developer",
+      "learnHow": "Learn How It Works"
+    },
+    "buttons": {
+      "browseDevelopers": "Browse Developers",
+      "startProject": "Start Project"
+    }
+  }
+}
